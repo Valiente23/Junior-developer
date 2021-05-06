@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'DM Sans', sans-serif;
+  list-style: none;
+  text-decoration: none; }
+  * a:link, * a:visited, * a:active {
+    text-decoration: none;
+    color: white; }
+
+body {
+  background-color: #242424; }
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 10vh;
+  min-height: 80px; }
+  header .logo .logo__name {
+    font-size: 1.5em;
+    color: white;
+    margin: 0 0 0 70px; }
+    header .logo .logo__name span {
+      color: #FFA500; }
+  header nav .nav__menu {
+    font-size: 1.5em;
+    color: white;
+    margin: 0 70px 0 0; }
+
+main {
+  display: flex;
+  flex-direction: column; }
+  main .title {
+    font-size: 6em;
+    padding: 200px;
+    text-align: center;
+    color: white;
+    height: 90vh; }
+    main .title span {
+      color: #FFA500; }
+  main .profile {
+    height: 110vh;
+    min-height: 1000px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    main .profile .profile__description {
+      width: 750px;
+      padding: 0 0 0 150px;
+      margin: 0 100px 0 0; }
+      main .profile .profile__description .profile__title {
+        font-size: 3em;
+        color: #242424;
+        margin: 0 0 20px 0; }
+        main .profile .profile__description .profile__title span {
+          color: #FFA500; }
+      main .profile .profile__description hr {
+        width: 300px;
+        height: 4px;
+        background-color: #FFA500;
+        color: #FFA500;
+        border-style: solid;
+        margin: 0 0 20px 0; }
+      main .profile .profile__description .profile__presentation {
+        margin: 0 0 20px 0;
+        font-size: 1.5em; }
+        main .profile .profile__description .profile__presentation span {
+          font-weight: 700; }
+    main .profile .profile__skills {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 500px;
+      background-color: #242424;
+      height: 100%; }
+      main .profile .profile__skills .profile__languages {
+        width: 100px;
+        margin: 20px; }
+  main .portfolio {
+    height: 110vh;
+    min-height: 1000px;
+    background-color: #FFA500; }
+    main .portfolio .portfolio__header {
+      display: flex;
+      height: 210px;
+      justify-content: space-between;
+      align-items: center; }
+      main .portfolio .portfolio__header .portfolio__title {
+        font-size: 3em;
+        margin: 0 70px 0 70px; }
+      main .portfolio .portfolio__header .portfolio__github {
+        width: 70px;
+        margin: 0 70px 0 0; }
+    main .portfolio .portfolio__jobs {
+      display: flex;
+      justify-content: center; }
+      main .portfolio .portfolio__jobs .portfolio__card {
+        background-color: white;
+        width: 330px;
+        margin: 55px;
+        box-shadow: 5px 5px 0 #A66B00; }
+        main .portfolio .portfolio__jobs .portfolio__card .portfolio__img {
+          display: flex;
+          height: 250px;
+          text-align: center;
+          justify-content: center;
+          align-items: center; }
+          main .portfolio .portfolio__jobs .portfolio__card .portfolio__img img {
+            height: 55%; }
+        main .portfolio .portfolio__jobs .portfolio__card .portfolio__data {
+          font-size: 1em;
+          height: 250px;
+          background-color: #242424;
+          color: white;
+          padding: 35px; }
+
+footer {
+  height: 95vh;
+  min-height: 900px; }
+  footer .contact__title {
+    font-size: 3em;
+    color: white;
+    margin: 50px; }
+    footer .contact__title span {
+      color: #FFA500; }
+  footer section {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    footer section .form {
+      display: flex;
+      flex-direction: column;
+      background-color: #FFA500;
+      width: 550px;
+      height: 650px;
+      padding: 40px 60px; }
+      footer section .form .form__label {
+        font-size: 1.3em;
+        font-weight: 500;
+        color: #242424;
+        margin: 7px 0 7px 0; }
+      footer section .form .form__input, footer section .form .form__email {
+        font-family: 'DM Sans', sans-serif;
+        font-size: 1em;
+        font-weight: 500;
+        border: none;
+        height: 40px;
+        border-radius: 2px;
+        padding: 10px; }
+      footer section .form .form__text-area {
+        font-family: 'DM Sans', sans-serif;
+        font-size: 1em;
+        font-weight: 500;
+        border: none;
+        height: 200px;
+        padding: 5px;
+        resize: none; }
+      footer section .form .form__button-send {
+        font-size: 1.3em;
+        font-weight: 500px;
+        height: 45px;
+        border: none;
+        border-radius: 2px;
+        margin: 20px 0 0 0;
+        background-color: #242424;
+        color: white; }
+      footer section .form input:focus, footer section .form textarea:focus {
+        color: #242424;
+        outline: none; }
+    footer section hr {
+      margin: 90px;
+      height: 500px; }
+    footer section .social {
+      display: flex;
+      flex-direction: column;
+      margin: 0 80px 0 0; }
+      footer section .social div {
+        display: flex;
+        align-content: center;
+        align-items: center;
+        margin: 8px 0; }
+        footer section .social div .social__icon {
+          width: 30px; }
+        footer section .social div .social__name {
+          font-size: 2;
+          font-weight: 500;
+          color: white;
+          margin: 0 10px; }
